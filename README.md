@@ -1,6 +1,6 @@
-# Virtuo- Learn
+# SimuStudy
 
- Welcome to Virtuo-Learn , it is a platform that provides immersive learning experiences like never before. It offers simulations, 3D visualizations, customized quizzes, doubt engine, and videos, all in one place.
+ Welcome to SimuStudy , it is a platform that provides immersive learning experiences like never before. It offers simulations, 3D visualizations, customized quizzes, doubt engine, and videos, all in one place.
 
 ## Features
 
