@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto:wght@400;700&display=swap');
+
+:root {
+    --padding-inline-section: 20px;
+}
+
+/* resets */
+  
+::-webkit-scrollbar{
+    width: 12px;
+}
+  
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0,0,0,0.25);
+}
+  
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: linear-gradient(to top, #2294ed , #1d69a3);
+}
+
+/* nav bar */
+
+.nav-toggle {
+    display: none;
+}
+.current-page {
+	color:#4d006b;
+	background-origin: border-box; 
+	padding: 8px 12px;
+    border-radius: 8px; 
+    border: 2px solid rgb(0, 30, 94);
+    text-decoration: none; 
+	font-weight: lighter;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 20px;
+  padding: 20px; 
+}
+
+.wrap {
+  background-color: #f9f9f9; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  margin-bottom: 20px; 
+  opacity: 0; 
+  transform: translateX(-100px);
+  text-align: center; 
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center; */
+}
+
+.wrap:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.wrap.show {
+  opacity: 1; 
+  transform: translateX(0); 
+  transition: transform 2s ease, opacity 0.6s ease; 
+}
+h2, p {
+  margin: 0; 
+}
+
+
+
+
+.hamburger{ /* In Use */
+  display: none;
+  cursor: pointer;
+}
+
+.bar{ /* In Use */
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: black;
+}
+
+nav {
+    text-align: center;
+    }
+    
+    nav ul{
+      list-style: none;
+      margin: 0 2px;
+      padding: 0;
+    }
+    
+    nav li {
+       display: inline-block;
+       padding: 6px 6px;
+    }
+    
+    nav a {
+      font-weight: normal;
+      font-size: .90em;
+    }
